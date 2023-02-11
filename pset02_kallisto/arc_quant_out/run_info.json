@@ -1,0 +1,13 @@
+{
+	"n_targets": 10,
+	"n_bootstraps": 0,
+	"n_processed": 100000,
+	"n_pseudoaligned": 99981,
+	"n_unique": 653,
+	"p_pseudoaligned": 100.0,
+	"p_unique": 0.7,
+	"kallisto_version": "0.48.0",
+	"index_version": 10,
+	"start_time": "Tue Dec 27 11:30:19 2022",
+	"call": "kallisto quant -i arc.idx -o arc_quant_out --single -l 150 -s 20 arc.fastq.gz"
+}

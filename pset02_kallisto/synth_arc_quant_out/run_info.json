@@ -1,0 +1,13 @@
+{
+	"n_targets": 10,
+	"n_bootstraps": 0,
+	"n_processed": 99899,
+	"n_pseudoaligned": 99899,
+	"n_unique": 273,
+	"p_pseudoaligned": 100.0,
+	"p_unique": 0.3,
+	"kallisto_version": "0.48.0",
+	"index_version": 10,
+	"start_time": "Tue Dec 27 11:30:20 2022",
+	"call": "kallisto quant -i synth_arc.idx -o synth_arc_quant_out --single -l 75 -s 10 LiuKevin_02_2a.fastq"
+}

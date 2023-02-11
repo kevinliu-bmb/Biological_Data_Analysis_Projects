@@ -1,0 +1,6 @@
+library(edgeR)
+x = read.table("mydata.tbl", sep = "	", row.names = 1)
+y = calcNormFactors(DGEList(counts = x, group = factor(c(1, 1, 1, 2, 2, 2))))
+jpeg(file = "mds.jpeg")
+plotMDS(y, method = "bcv", col = as.numeric(y$samples$group))
+dev.off()
